@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "272ebcbca7dacab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/linux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "linux"
-            }
-          },
-          {
             "id": "51eb3b40fd59ad84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/rust/rust 系统编程评价.md",
+                "file": "高性能/TODO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "rust 系统编程评价"
+              "title": "TODO"
             }
           },
           {
@@ -85,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/rust/异步编程.md",
+                "file": "网络/框架设计/高性能网络库.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "异步编程"
+              "title": "高性能网络库"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rust",
+                "query": "零拷贝",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -337,8 +312,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d0b2f6ce494b2ffc",
+  "active": "51eb3b40fd59ad84",
   "lastOpenFiles": [
+    "高性能/权衡决策/内存使用与性能权衡.md",
+    "高性能/权衡决策",
+    "工程实践/性能测试与分析/自定义内存分析工具开发.md",
+    "工程实践/性能测试与分析/perf内存分析.md",
+    "高性能/RDMA/协议.md",
+    "高性能/RDMA/RDMA.md",
+    "高性能/RDMA/RDMA - rust 注意问题.md",
+    "高性能/RDMA/C++_Rust_RDMA实现对比.md",
+    "语言/rust/rust 系统编程评价.md",
+    "linux/linux.md",
+    "网络/框架设计/高性能网络库.md",
+    "高性能/TODO.md",
+    "未命名 2.md",
+    "未命名 1.md",
+    "linux/网卡卸载.md",
+    "系统编程/IO/IO流程追踪.md",
+    "系统编程/IO/ext4_tracepoints.md",
+    "系统编程/线程/工作窃取调度算法.md",
+    "语言/rust/异步编程.md",
     "工程实践/性能测试与分析/性能分析工具集成.md",
     "工程实践/性能测试与分析/内存分析工具.md",
     "工程实践/性能测试与分析/性能基准测试框架.md",
@@ -349,32 +343,13 @@
     "高性能/数据处理/大数据处理内存优化.md",
     "高性能/数据处理",
     "网络/框架设计/RDMA编程实践.md",
-    "网络/框架设计/高性能网络库.md",
     "语言/rust/Rust异步编程性能优化.md",
-    "语言/rust/Unsafe Rust在性能关键路径中的应用.md",
-    "语言/rust/Rust无GC内存管理优势.md",
-    "语言/rust/异步编程.md",
-    "性能优化/工具/eBPF/编程模型.md",
-    "性能优化/工具/eBPF/安全监控.md",
-    "系统编程/CPU/现代CPU架构特性.md",
-    "语言/cpp/内存模型.md",
-    "语言/rust/Rust内存管理模型详解.md",
-    "语言/cpp/模板元编程优化技术.md",
-    "系统编程/CPU/流水线.md",
-    "系统编程/文件系统/核心数据结构.md",
-    "语言/cpp/现代C++内存管理最佳实践.md",
-    "系统编程/CPU/分支预测与流水线优化.md",
-    "系统编程/线程/线程模型优化.md",
-    "系统编程/线程/线程池设计与调优.md",
-    "系统编程/线程/实现原理.md",
-    "系统编程/线程/工作窃取调度算法.md",
     "系统编程/并发",
     "高性能/RDMA",
     "高性能/DPDK",
     "高性能",
     "网络/协议栈",
     "系统编程/IO/文件系统",
-    "性能优化/工具/eBPF",
     "未命名.canvas"
   ]
 }
